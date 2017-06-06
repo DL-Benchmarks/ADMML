@@ -1,0 +1,11 @@
+*.pyc
+
+docs/build/
+
+docs/source/admml.admml.rst
+docs/source/admml.examples.rst
+docs/source/admml.mappers.rst
+docs/source/admml.mlalgs.rst
+docs/source/admml.rst
+docs/source/admml.utils.rst
+docs/source/modules.rst
