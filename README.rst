@@ -5,9 +5,9 @@ The advent of big-data has seen an emergence of research on scalable machine lea
 
 The precursor to this tool is presented in [1,2]. It majorly follows the work provided in [3]. For implementation details please cite [1].
 
-1. Dhar S, Yi C, Ramakrishnan N, Shah M. `ADMM based scalable machine learning on Spark.` InBig Data (Big Data), 2015 IEEE International Conference on 2015 Oct 29 (pp. 1174-1182). IEEE.
-2. Kamath G, Dhar S, Ramakrishnan N, Hallac D, Leskovec J, Shah M.`Scalable Machine Learning on Spark for multiclass problems`, Baylearn 2016
-3. Boyd S, Parikh N, Chu E, Peleato B, Eckstein J. `Distributed optimization and statistical learning via the alternating direction method of multipliers.` Foundations and Trends in Machine Learning. 2011 Jan 1;3(1):1-22.
+1. S. Dhar S, C. Yi, N. Ramakrishnan N, M. Shah. `ADMM based scalable machine learning on Spark.` IEEE International Conference on in Big Data (Big Data),  2015 (pp. 1174-1182).
+2. G. Kamath, S. Dhar, N. Ramakrishnan, D. Hallac, J. Leskovec, M. Shah.`Scalable Machine Learning on Spark for multiclass problems`, Baylearn 2016
+3. S. Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein. `Distributed optimization and statistical learning via the alternating direction method of multipliers.` Foundations and Trends in Machine Learning. 2011 Jan 1;3(1):1-22.
 
 Presented in Spark Summit 2017. ( https://spark-summit.org/2017/events/admm-based-scalable-machine-learning-on-apache-spark/ )
 
@@ -23,8 +23,8 @@ Dependencies:
 
 (These instructions were tested on centos2.6 only, but they should work on other platforms. Additionally, it has been tested on Python 2.7).
 
-1. Unzip the downloaded zipped file.
-2. Navigate to the zipped <ADMML> folder, i.e. the folder which contains setup.py
+1. Clone the repository / Download the zipped file.
+2. Navigate to the <ADMML> folder, i.e. the folder which contains setup.py
 3. Build the .egg files (``python setup.py bdist_egg``)
 4. Launch Pyspark and distribute the .egg file to all the cluster nodes for the pyspark context:
    ``sc.addPyFile('<ADMML folder absolute path>/dist/admml-0.1-py2.7.egg')``
