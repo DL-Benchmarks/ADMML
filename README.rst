@@ -5,9 +5,9 @@ The advent of big-data has seen an emergence of research on scalable machine lea
 
 The precursor to this tool is presented in [1,2]. It majorly follows the work provided in [3]. For implementation details please cite [1].
 
-1. S. Dhar S, C. Yi, N. Ramakrishnan N, M. Shah. `ADMM based scalable machine learning on Spark.` IEEE International Conference on in Big Data (Big Data),  2015 (pp. 1174-1182).
-2. G. Kamath, S. Dhar, N. Ramakrishnan, D. Hallac, J. Leskovec, M. Shah.`Scalable Machine Learning on Spark for multiclass problems`, Baylearn 2016
-3. S. Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein. `Distributed optimization and statistical learning via the alternating direction method of multipliers.` Foundations and Trends in Machine Learning. 2011 Jan 1;3(1):1-22.
+1. S Dhar, C. Yi, N. Ramakrishnan N, M. Shah. `ADMM based scalable machine learning on Spark.` IEEE International Conference on in Big Data (Big Data),  2015 (pp. 1174-1182).
+2. G Kamath, S. Dhar, N. Ramakrishnan, D. Hallac, J. Leskovec, M. Shah.`Scalable Machine Learning on Spark for multiclass problems`, Baylearn 2016
+3. S Boyd, N. Parikh, E. Chu, B. Peleato, J. Eckstein. `Distributed optimization and statistical learning via the alternating direction method of multipliers.` Foundations and Trends in Machine Learning. 2011 Jan 1;3(1):1-22.
 
 Presented in Spark Summit 2017. ( https://spark-summit.org/2017/events/admm-based-scalable-machine-learning-on-apache-spark/ )
 
