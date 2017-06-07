@@ -23,8 +23,8 @@ Dependencies:
 
 (These instructions were tested on centos2.6 only, but they should work on other platforms. Additionally, it has been tested on Python 2.7).
 
-1. Unzip the downloaded zipped file.
-2. Navigate to the zipped <ADMML> folder, i.e. the folder which contains setup.py
+1. Clone the repository.
+2. Navigate to <ADMML> folder, i.e. the folder which contains setup.py
 3. Build the .egg files (``python setup.py bdist_egg``)
 4. Launch Pyspark and distribute the .egg file to all the cluster nodes for the pyspark context:
    ``sc.addPyFile('<ADMML folder absolute path>/dist/admml-0.1-py2.7.egg')``
