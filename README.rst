@@ -61,7 +61,7 @@ With these prerequisites in place, the documentation can be built as follows.
 2. Run the command ``sphinx-apidoc -f -e -o source/ ../admml/``
 3. Run the command ``make html`` (repeat this step until there are no warnings, which should require no more than 3 runs)
 
-Also see `User Manual.pdf <User_Manual.pdf>` for detailed tool usage.
+Also see `User Manual <User_Manual.pdf>`_ for detailed tool usage.
 
 License
 --------
